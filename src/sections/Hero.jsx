@@ -100,7 +100,7 @@ export const Hero = () => {
               </a>
 
               <a
-                href="/Resume(1).pdf"
+                href="/MyResume.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
