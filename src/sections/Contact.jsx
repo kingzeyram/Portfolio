@@ -87,33 +87,33 @@ export const Contact = () => {
     }
   };
   return (
-    <section id="contact" className="py-32 relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
+    <section id="contact" className="py-16 md:py-32 relative overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-72 h-72  md:w-96 md:h-96 bg-primary/5 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 right-1/4 w-48 h-48 md:w-64 md:h-64 bg-highlight/5 rounded-full blur-3xl" />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
+        <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
+          <span className="text-secondary-foreground text-xs md:text-sm font-medium tracking-wider uppercase animate-fade-in">
             Get In Touch
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
+          <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-4 md:mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
             Let's build{" "}
             <span className="font-serif italic font-normal text-white">
               something great.
             </span>
           </h2>
-          <p className="text-muted-foreground animate-fade-in animation-delay-200">
+          <p className="text-muted-foreground text-sm md:text-base px-2 animate-fade-in animation-delay-200">
             Have a project in mind? I'd love to hear about it. Send me a message
             and let's discuss how we can work together.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
-            <form className="space-y-6" onSubmit={handleSubmit}>
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 max-w-5xl mx-auto">
+          <div className="glass p-5 md:p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
+            <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label
                   htmlFor="name"
@@ -183,7 +183,7 @@ export const Contact = () => {
                 ) : (
                   <>
                     Send Message
-                    <Send className="w-5 h-5" />
+                    <Send className="ml-2 w-5 h-5" />
                   </>
                 )}
               </Button>
@@ -210,25 +210,25 @@ export const Contact = () => {
 
           {/* Contact Info */}
           <div className="space-y-6 animate-fade-in animation-delay-400">
-            <div className="glass rounded-3xl p-8">
+            <div className="glass rounded-3xl p-6 md:p-8">
               <h3 className="text-xl font-semibold mb-6">
                 Contact Information
               </h3>
-              <div className="space-y-4">
+              <div className="space-y-2 md:space-y-4">
                 {contactInfo.map((item, i) => (
                   <a
                     key={i}
                     href={item.href}
-                    className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
+                    className="flex items-center gap-3 md:gap-4 p-3  md:p-4 rounded-xl hover:bg-surface transition-colors group"
                   >
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                    <div className="w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                       <item.icon className="w-5 h-5 text-primary" />
                     </div>
-                    <div>
-                      <div className="text-sm text-muted-foreground">
+                    <div className="min-w-0">
+                      <div className="text-xs text-muted-foreground">
                         {item.label}
                       </div>
-                      <div className="font-medium">{item.value}</div>
+                      <div className="font-medium text-sm md:text-base truncate">{item.value}</div>
                     </div>
                   </a>
                 ))}
