@@ -26,7 +26,7 @@ export const Footer = () => {
               LR<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Lungaho Ramsey. All rights reserved.
+              © {currentYear} Lungaho Ramsey. All rights reserved..
             </p>
           </div>
 
