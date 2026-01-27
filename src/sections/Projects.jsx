@@ -7,7 +7,7 @@ const projects = [
       "A fast and reliable online fashion store that not only brings you top brands but highend quality as well",
     image: "/projects/fashionova.JPG",
     tags: ["Reactjs", "Typescript", "Tailwindcss"],
-    link: "https://fashionovaa.vercel.web",
+    link: "https://fashionovaa.vercel.app/",
     github: "https://github.com/kingzeyram/fashionova",
   },
   {
