@@ -7,16 +7,16 @@ const projects = [
       "A fast and reliable online fashion store that not only brings you top brands but highend quality as well",
     image: "/projects/fashionova.JPG",
     tags: ["Reactjs", "Typescript", "Tailwindcss"],
-    link: "fashionovaa.vercel.web",
+    link: "https://fashionovaa.vercel.web",
     github: "https://github.com/kingzeyram/fashionova",
   },
   {
     title: "Zkickske",
     description:
       "An online shop that sells authentic sneakers from top brands worldwide",
-    image: "/projects/zkickske.JPG",
+    image: "/projects/zkickske.png",
     tags: ["Reactjs", "Typescript", "Tailwindcss"," Nextjs"],
-    link: "zkickske.vercel.app",
+    link: "https://zkickske.vercel.app",
     github: "https://github.com/kingzeyram/zkickske",
   },
   
