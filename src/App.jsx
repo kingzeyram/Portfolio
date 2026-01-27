@@ -6,7 +6,8 @@ import { Experience } from "../src/sections/Experience";
 import { Testimonials } from "../src/sections/Testimonials";
 import { Contact } from "../src/sections/Contact";
 import { Footer } from "./layout/Footer";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react'
+
 
 function App() {
   
