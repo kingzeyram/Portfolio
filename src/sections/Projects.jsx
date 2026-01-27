@@ -14,7 +14,7 @@ const projects = [
     title: "Zkickske",
     description:
       "An online shop that sells authentic sneakers from top brands worldwide",
-    image: "/projects/zkickske.png",
+    image: "/projects/zkicks.png",
     tags: ["Reactjs", "Typescript", "Tailwindcss"," Nextjs"],
     link: "https://zkickske.vercel.app",
     github: "https://github.com/kingzeyram/zkickske",
