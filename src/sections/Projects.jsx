@@ -11,13 +11,13 @@ const projects = [
     github: "https://github.com/kingzeyram/fashionova",
   },
   {
-    title: "Fashionova",
+    title: "Zkickske",
     description:
-      "A fast and reliable online fashion store that not only brings you top brands but highend quality as well",
-    image: "/projects/fashionova.JPG",
-    tags: ["Reactjs", "Typescript", "Tailwindcss"],
-    link: "fashionovaa.vercel.web",
-    github: "https://github.com/kingzeyram/fashionova",
+      "An online shop that sells authentic sneakers from top brands worldwide",
+    image: "/projects/zkickske.JPG",
+    tags: ["Reactjs", "Typescript", "Tailwindcss"," Nextjs"],
+    link: "zkickske.vercel.app",
+    github: "https://github.com/kingzeyram/zkickske",
   },
   
 ];
