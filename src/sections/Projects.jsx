@@ -23,7 +23,7 @@ const projects = [
     title: "KCAU_ ALUMNI-CONNECT",
     description:
       "An online platform that connects KCAU alumni, fostering networking, mentorship, and career opportunities within the KCAU community.",
-    image: "/projects/alumni-connect.png",
+    image: "/projects/alumniconnect.png",
     tags: ["React", "vite", "socket.io"," DarajaApi",""],
     link: "https://alumni-connect-lovat.vercel.app/login",
     github: "https://github.com/kingzeyram/alumni-connect",
