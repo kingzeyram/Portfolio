@@ -1,6 +1,15 @@
 const experiences = [
+   {
+    period: "2026 — present",
+    role: "Graphics Designer",
+    company: "Black Market Records",
+    description:
+      "A Dynamic and innovative record label that focuses on discovering and promoting emerging artists in the music industry.",
+    technologies: ["Adobe Creative Suite", "Blender", "Capcut", "Figma"],
+    current: false,
+  },
   {
-    period: "2024 — Present",
+    period: "2025 — 2026",
     role: "Tech lead",
     company: "Fashionova",
     description:
